@@ -1,0 +1,375 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <title>ECell IIITD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" href='{% static "bootstrap/css/bootstrap.min.css" %}'>
+    <link rel="stylesheet" href='{% static "fontawesome/css/all.min.css" %}'>
+    <link rel="stylesheet" href='{% static "style.css" %}'>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    
+</head>
+<body>
+<style>
+
+@font-face{
+    font-family: "Yu Gothic Light";
+    src: url('{% static "yugothil.ttf" %}') format('truetype');
+}
+</style>
+<div>
+    <div class="radial-gradient row p-3 pt-md-5 pt-3">
+        <div class="col-2 text-center hide">
+            <div class="px-3 p-4 pb-5">
+                <img class="logo" src="images/ecell-logo.png" alt="ecell logo">
+            </div>
+            <div class="pb-2 d-none">
+                <a href="#" class="py-1 px-3 link-button">About Us</a>
+            </div>
+        </div>
+        <div class="w-100">
+            <div class="px-md-5 px-3 title scroll-animation">
+                Envision
+            </div>
+            <div class="px-md-5 px-3 subtitle scroll-delay-1">
+                Explore, Encounter, Endevour
+            </div>
+            <div class="w-100 text-center">
+                <img src='{% static "images/ecell-logo.png" %}' class=" logo" alt="Ecell Logo">
+            </div>
+            <div class="col-12 justify-content-end w-100">
+                <div class="d-flex justify-content-end scroll-delay-2">
+                    <div class="gradient-2 py-2 pl-2 pill">
+                        <a href="#events" class="py-1 px-md-3 link-button px-2 m-md-2 m-1">Events</a>
+                        <a href="#" class="py-1 px-md-3 link-button px-2 m-md-2 m-1">Blog</a>
+                        <a href="members.html" class="py-1 px-md-3 px-2 link-button m-md-2 m-1">Team</a>
+                        <a href="#about-us" class="py-1 px-md-3 px-2 link-button m-md-2 m-1">About Us</a>
+                        <a href="#contact" class="py-1 px-md-3 px-2 link-button m-md-2 m-1">Contact</a>
+                        <a href="#" class="p-2 m-2 link-icons hide"><i class="fa fa-user fa-fw"></i></a>
+                        <a href="#" class="p-2 m-2 link-icons hide"><i class="fa fa-search fa-fw"></i></a>
+                        <a href="#"> &nbsp;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-photo hide">
+        <img class="w-100 " style="z-index:-1" src="images/iiitd.jpeg" alt="iiitd new academic block">
+        <div class="top-left ">
+            <span class="main-color">
+                <span class="scroll-delay-3" style="font-size: 2.5rem">We are </span>
+                <br>
+                <span class="scroll-delay-4" style="font-size: 7rem; line-height:9rem;">Envision</span>
+            </span>
+            <br>
+            <span class="scroll-delay-5 white" style="font-size: 2.2rem">Encounter, Explore, Excel</span>
+        </div>
+    </div>
+    <div class="gradient-3 p-md-5 p-3">
+        <div id="events" class="main-color heading scroll-delay-3">
+            Our Events
+        </div>
+        <div class="events gradient-4 scroll-delay-4 row p-0 mx-0 my-md-5 my-md-5 my-3">
+            <div class="col-md-10 col-8 pl-md-4 mr-md-0 mr-2 py-2">
+                <div class="row">
+                    <div class="d-flex flex-column justify-content-center p-3 col-2 text-center">
+                        <div class="text-center w-100">
+                            <img src='{% static "images/icons/Asset 6@2x.png" %}' class="border-50 event-logo" alt="">
+                        </div>
+                    </div>
+                    <div class="p-md-3 p-1 pl-md-0 pl-5  col-10">
+                        <span class="event-header">Hello World</span>
+                        <br>
+                        <span class="event-subheading design-thinking">Design Thinking Workshop</span>
+                        <br>
+                        <!-- <br class="d-md-block d-none"> -->
+                        <span class="">
+                            <!-- <span id="read-more-1" style="" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read more</span>
+                            <span id="read-less-1" style="display: none;" class="btn read-more pill date p-1 px-md-4 px-2 mx-auto">read less</span>         -->
+                            <a class="event-subheading" style="color: #5AB9EA;" href="https://ecell-helloworld.herokuapp.com">Click Here</a>
+                        </span>
+                        <br class="">
+                        <span class="hide">
+                            <span class="pill date p-1 px-3">22/07/19</span>
+                            <br>
+                            <br>
+                        </span>
+                        <span id="long-description-1" style="display: none;" class="event-description">
+                            Design Thinking is a 5 step process to come up with creative solutions to solve real-world problems for a particular group of people.
+                            <br>
+                            Step 1: Explore and Understand <br>
+                            Think about various situations in the problem sector and identify the group of people/communities being affected. Understand their problems specific to that field. Make use of any reliable resource (Books, Internet, People, Newspapers etc.) to gather information for a deeper analysis of the situation.
+                            <br>
+                            Step 2: Define Problem Statement <br>
+                            After the complete in-depth analysis of different problem scenarios, come up with a definitive problem statement which clearly states what problem you are explicitly focusing on and who are the stakeholders. 
+                            <br>
+                            Step 3: Ideate <br>
+                            Now focus only on the problem statement you've formed, and come up with creative and unique idea to solve the problem. Best ideations occur when you think as a team and critique each other's ideas. You can propose a solution in any form - a hardware tool, an application, a website, or maybe something new! 
+                            <br>
+                            Step 4: Prototype <br>
+                            Before the final approval of an idea, it is important to brainstorm and verify it's functionality as per the problem statement. Take a moment to reflect on what you've learnt from your discussions and brainstorming. Connect the dots and sketch a basic prototype of your solution proposal on paper.
+                            <br>
+                            Step 5: Evaluate <br>
+                            Evaluate your prototype by testing it on diverse groups of people to get feedback and critiques for further improvement. 
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-1">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <span id="read-more-1" style="" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read more</span>
+                    <span id="read-less-1" style="display: none;" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read less</span>
+                </div>
+            </div>
+        </div>
+        <div class="events gradient-4 scroll-delay-1 row p-0 mx-0  my-md-5 my-3">
+            <div class="col-md-10 col-8 pl-md-4 mr-md-0 mr-2 py-2">
+                <div class="row">
+                    <div class="d-flex flex-column justify-content-center p-3 col-2 text-center">
+                        <div class="text-center w-100">
+                            <img src='{% static "images/icons/Asset 1@2x.png" %}' class="border-50 event-logo" alt="">
+                        </div>
+                    </div>
+                    <div class="p-md-3 p-1 pl-md-0 pl-5 col-10">
+                        <span class="event-header">ProfitHat</span>
+                        <br>
+                        <span class="event-subheading">Full Day Event</span>
+                        <br>
+                        <br>
+                        <span class="hide">
+                            <span class="pill date p-1 px-3">22/07/19</span>
+                            <br>
+                            <br>
+                        </span>
+                        <span id="long-description-2" style="display: none;" class="event-description">
+                            Jugaad Karo: With a given amount of initial money, teams have to jugaad to make that money count. 
+                            Multiply that by using any means (except for illegal). 
+                            The team with most money made and also with legal methods followed, can be declared as winner.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-1">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <span id="read-more-2" style="" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read more</span>
+                    <span id="read-less-2" style="display: none;" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read less</span>
+                </div>
+            </div>
+        </div>
+        <div class="events gradient-4 scroll-delay-1 row p-0 mx-0  my-md-5 my-3">
+            <div class="col-md-10 col-8 pl-md-4 mr-md-0 mr-2 py-2">
+                <div class="row">
+                    <div class="d-flex flex-column justify-content-center p-3 col-2 text-center">
+                        <div class="text-center w-100">
+                            <img src='{% static "images/icons/Asset 2@2x.png" %}' class="border-50 event-logo" alt="">
+                        </div>
+                    </div>
+                    <div class="p-md-3 p-1 pl-md-0 pl-5 col-10">
+                        <span class="event-header">End Of Year Sale</span>
+                        <br>
+                        <span class="event-subheading">Sell What You made</span>
+                        <br>
+                        <br>
+                        <span class="hide">
+                            <span class="pill date p-1 px-3">22/07/19</span>
+                            <br>
+                            <br>
+                        </span>
+                        <span id="long-description-3" style="display: none;" class="event-description">
+                            At the very end of any said semester, you have done some work different than the rest of the people in the campus. 
+                            So, now is the time to show them off and sell those mini ideas to ones who need em. 
+                            It need not be a full scale project but something that can earn you a E-Cell-Coin. 
+                            For each consumer you have for that idea/project/script/automatedWeb/Something You made Something you drew. 
+                            You get a chance to host a bid for it. Or maybe a stall to sell your items off. 
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-1">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <span id="read-more-3" style="" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read more</span>
+                    <span id="read-less-3" style="display: none;" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read less</span>
+                </div>
+            </div>
+        </div>
+        <div class="events gradient-4 scroll-delay-1 row p-0 mx-0 my-md-5 my-3">
+            <div class="col-md-10 col-8 pl-md-4 mr-md-0 mr-2 py-2">
+                <div class="row">
+                    <div class="d-flex flex-column justify-content-center p-3 col-2 text-center">
+                        <div class="text-center w-100">
+                            <img src='{% static "images/icons/Asset 3@2x.png" %}' class="border-50 event-logo" alt="">
+                        </div>
+                    </div>
+                    <div class="p-md-3 p-1 pl-md-0 pl-5 col-10">
+                        <span class="event-header">Ideathon</span>
+                        <br>
+                        <span class="event-subheading">Coming Soon</span>
+                        <br>
+                        <br>
+                        <span class="hide">
+                            <span class="pill date p-1 px-3">22/07/19</span>
+                            <br>
+                            <br>
+                        </span>
+                        <span id="long-description-4" style="display: none;" class="event-description">
+                            12 hours to prepare a pitch and get investment from us. The top 5 tems get to present infront of judges. Top team gets a chance to incubate
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-1">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <span id="read-more-4" style="" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read more</span>
+                    <span id="read-less-4" style="display: none;" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read less</span>
+                </div>
+            </div>
+        </div>
+        <div class="events gradient-4 scroll-delay-1 row p-0 mx-0 my-md-5 my-3">
+            <div class="col-md-10 col-8 pl-md-4 mr-md-0 mr-2 py-2">
+                <div class="row">
+                    <div class="d-flex flex-column justify-content-center p-3 col-2 text-center">
+                        <div class="text-center w-100">
+                            <img src='{% static "images/icons/Asset 4@2x.png" %}' class="border-50 event-logo" alt="">
+                        </div>
+                    </div>
+                    <div class="p-md-3 p-1 pl-md-0 pl-5 col-10">
+                        <span class="event-header">Sell Any Thing</span>
+                        <br>
+                        <span class="event-subheading">Coming Soon</span>
+                        <br>
+                        <br>
+                        <span class="hide">
+                            <span class="pill date p-1 px-3">22/07/19</span>
+                            <br>
+                            <br>
+                        </span>
+                        <span id="long-description-5" style="display: none;" class="event-description">
+                            How will you sell a pen without ink in it or probably a condom with a hole in it. 
+                            Can you master your pitch to sell the most unsellable thing?
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-1">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <span id="read-more-5" style="" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read more</span>
+                    <span id="read-less-5" style="display: none;" class="btn pill read-more p-1 px-md-4 px-2 mx-auto">read less</span>
+                </div>
+            </div>
+        </div>
+    <div class="">
+        <div id="about-us" class="scroll-delay-1 secondary-color heading mb-md-5 mb-3">
+            About Us
+        </div>
+        <div class="event-subheading scroll-delay-1">
+                Nowadays people are afraid to take risks. Entreprenuership is one of those. Its elemental definition is "owing a business
+                with some risks in order to make profit". We at E-Cell of IIIT Delhi have those hormones in our andrenals to take those 
+                risks and also have intent to cultivate those in others with some groundbreaking ideas that could possibly change the
+                perception of the society towards Entreprenuership. Our vision is to enrich the Indian youth with proper Entp skills
+                through many enlighting workshops, etalks, startup showcases and self-assertive or ambitious yet productive and healthy
+                competitions. 
+        </div>
+        <div class="dark border-5 row m-0 d-none">
+            <div class="p-3">
+                <img src='{% static "images/icons/Asset 5@2x.png" %}' class="border-50 event-logo" alt="">
+            </div>
+            <div class="border-5 pill dark-background px-3">
+                <div class="main-color event-header">
+                    Member Name
+                </div>
+                <div class="white">
+                    short description short description short description short description short description
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="main-background p-md-5 p-3">
+        <div id="contact" class="white heading subtitle mb-md-5 scroll-delay-1">
+            Contact Us
+        </div>  
+        <div class="row p-0 m-0 justify-content-between scroll-delay-2">
+            <div class="col-md-auto p-3 col-8 d-flex flex-column justify-content-center">
+                <div class="row">
+                    <div class="light-background p-md-2 p-1 border-2 favicon-font text-center  mr-md-0 mr-1">
+                        <a href="tel:+917404343895"><i class="fa fa-phone-alt border-50 p-1 ml-1 my-md-3 my-2 fa-fw"></i></a>
+                        <br>
+                        <a href="mailto:ecell@iiitd.ac.in"><i class="fa fa-envelope border-50 p-1 fa-fw"></i></a>
+                    </div>
+                    <div class="light-background p-md-4 p-2 border-2 mx-md-3 px-4 d-flex flex-column justify-content-center">
+                        <div class="white-background event-subheading text-center p-1 px-md-3 black-color border-5">
+                            <span class="px-md-2">
+                                    +91-7404343895
+                            </span> 
+                            <span class="px-md-2 hide">
+                                    +011-40502771
+                            </span>              
+                        </div>
+                        <div class="white-background event-subheading text-center p-1 px-3 black-color border-5 mt-md-3 mt-1 text-center">
+                                ecell@iiitd.ac.in           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-4 my-md-0 my-3 d-flex flex-column justify-content-center">
+                <div class="">
+                    <div class="light-background border-5 event-description px-md-4 p-2 my-auto mx-3 hide">
+                        Links
+                    </div>
+                    <div class="light-background border-5 event-subheading text-center px-md-5 p-2">
+                        <a href="http://iic.iiitd.ac.in/">iic.iiitd.ac.in</a>
+                        <!-- <br>
+                        <a href="">www.xyzabc.com</a>
+                        <br>
+                        <a href="">www.xyzabc.com</a> -->
+                    </div>
+                </div>
+                <div class="">
+                        <div class="light-background border-5  event-description px-4 p-2 my-auto mx-3 hide">
+                            Find Us
+                        </div>
+                        <div class="light-background border-5 event-description d-flex justify-content-center px-3 p-2 my-md-3 my-1">
+                            <a href="https://www.facebook.com/ECell.IIITD/"><i class="fab fa-facebook fa-fw favicon-font-2 mx-1"></i></a>
+                            <a href="https://www.instagram.com/iiitdecell/?hl=en"><i class="fab fa-instagram fa-fw favicon-font-2 mx-1"></i></a>
+                            <!-- <i href=""><i class="fab fa-twitter fa-fw favicon-font mx-1"></i></a> -->
+                            <!-- <a href=""><i class="fab fa-whatsapp  fa-fw favicon-font mx-1"></i></a>   -->
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src='{% static "script.js" %}'></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<script src="static/files/templates/rellax.min.js"></script>
+<script>
+    var rellax = new Rellax('.rellax');
+</script>
