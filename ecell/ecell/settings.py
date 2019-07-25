@@ -128,5 +128,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(SITE_ROOT, "static"),
+    '/home/iiitd/ecell_django/ecell/static',
 ]
 
