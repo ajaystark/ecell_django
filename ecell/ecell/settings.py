@@ -14,8 +14,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -23,7 +23,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 SECRET_KEY = 'u-ufeu@m^khsn&i%hbmys+t@55&d3i2ktn#2=fx#4uj8*ptfq5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
@@ -123,11 +123,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
-
+STATIC_URL = '/static/' 
 
 STATICFILES_DIRS = [
-    os.path.join(SITE_ROOT, "static"),
-    '/home/iiitd/ecell_django/ecell/static',
+    os.path.join(BASE_DIR, "static"),
 ]
-

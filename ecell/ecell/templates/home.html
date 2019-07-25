@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
     <title>ECell IIITD</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
     <link rel="stylesheet" href='{% static "bootstrap/css/bootstrap.min.css" %}'>
     <link rel="stylesheet" href='{% static "fontawesome/css/all.min.css" %}'>
@@ -369,7 +369,7 @@ $(document).ready(function(){
   });
 });
 </script>
-<script src="static/files/templates/rellax.min.js"></script>
+<script src='{% static "rellax.min.js" %}'></script>
 <script>
     var rellax = new Rellax('.rellax');
 </script>
