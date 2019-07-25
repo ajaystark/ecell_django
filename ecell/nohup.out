@@ -1,0 +1,8 @@
+  File "/home/iiitd/ecell_django/ecell/manage.py", line 16
+    ) from exc
+         ^
+SyntaxError: invalid syntax
+  File "/home/iiitd/ecell_django/ecell/manage.py", line 16
+    ) from exc
+         ^
+SyntaxError: invalid syntax
