@@ -23,13 +23,12 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 SECRET_KEY = 'u-ufeu@m^khsn&i%hbmys+t@55&d3i2ktn#2=fx#4uj8*ptfq5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     '192.168.1.239',
     'ecell.iiitd.edu.in'
-
 ]
 
 
@@ -129,10 +128,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/' 
 STATIC_ROOT=os.path.join(BASE_DIR, 'static/')
-STATICFILES_DIRS =( os.path.join(STATIC_ROOT, 'css/'),
-                    os.path.join(STATIC_ROOT, 'javascript/'),
-                    os.path.join(STATIC_ROOT, 'images/')
-                  )
+# STATICFILES_DIRS =( os.path.join(STATIC_ROOT, 'css/'),
+#                     os.path.join(STATIC_ROOT, 'javascript/'),
+#                     os.path.join(STATIC_ROOT, 'images/')
+#                   )
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
 # STATICFILES_DIRS = [
