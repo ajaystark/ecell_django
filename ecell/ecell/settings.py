@@ -29,7 +29,6 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '192.168.1.239',
     'ecell.iiitd.edu.in'
-
 ]
 
 
@@ -129,10 +128,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/' 
 STATIC_ROOT=os.path.join(BASE_DIR, 'static/')
-STATICFILES_DIRS =( os.path.join(STATIC_ROOT, 'css/'),
-                    os.path.join(STATIC_ROOT, 'javascript/'),
-                    os.path.join(STATIC_ROOT, 'images/')
-                  )
+# STATICFILES_DIRS =( os.path.join(STATIC_ROOT, 'css/'),
+#                     os.path.join(STATIC_ROOT, 'javascript/'),
+#                     os.path.join(STATIC_ROOT, 'images/')
+#                   )
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
 # STATICFILES_DIRS = [
