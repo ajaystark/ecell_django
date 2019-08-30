@@ -16,11 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls.static import static
-from ecell.views import homepage
+from ecell.views import homepage,pitchcafe
 from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',homepage.as_view(),name="home")
+    path('',homepage.as_view(),name="home"),
+    path('PitchCafe2.0',pitchcafe.as_view(),name="home"),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 # urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT),

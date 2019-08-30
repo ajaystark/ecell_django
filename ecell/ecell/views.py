@@ -7,3 +7,7 @@ class homepage(generic.View):
         # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         # print('base dir',BASE_DIR)
         return render(request,self.template)
+class pitchcafe(generic.View):
+    template="pitchcafe.html"
+    def get(self,request):
+        return render(request,self.template)
