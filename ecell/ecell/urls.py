@@ -18,10 +18,13 @@ from django.urls import path
 from django.conf.urls.static import static
 from ecell.views import homepage,pitchcafe
 from django.conf import settings
+# from django.contrib.staticfiles import views
+# from django.urls import re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',homepage.as_view(),name="home"),
     path('PitchCafe2.0',pitchcafe.as_view(),name="pitch cafe"),
+    # re_path(r'^static/(?P<path>.*)$', views.serve),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 # urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT),
