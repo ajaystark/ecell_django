@@ -22,6 +22,6 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',homepage.as_view(),name="home"),
-    path('PitchCafe2.0',pitchcafe.as_view(),name="home"),
+    path('PitchCafe2.0',pitchcafe.as_view(),name="pitch cafe"),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 # urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT),
