@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href='{% static "fontawesome/css/all.min.css" %}'>
+    <!-- <link rel="stylesheet" href='{% static "style.css" %}'> -->
+    
     <title>
         Pitch Cafe 2.0
     </title>
@@ -23,8 +27,38 @@
             height: 100%;
             background-color: #ff4444;
         }
+        .register-now:hover{
+            background: white;
+        }
+        .register-now{
+            background: rgb(45, 70, 104);
+            font-size: 2rem;
+        }
+        a{
+            color: white;   
+        }
+        a:hover{
+            color: rgb(45, 70, 104);
+        }
+        .font-size{
+            font-size: 2.75rem;
+        }
+        @media only screen and (max-width: 768px) {
+            .register-now{
+                font-size: 1rem;
+            }
+        }
     </style>
     <div class="header">
         <img src="{% static 'pitchcafe2.png' %}" alt="Pitch Cafe 2.0" style="background-size:cover; width:100%;">
+    </div>
+    <div class="w-100 p-3 my-3 text-center">
+        <div>
+            <a href="https://docs.google.com/forms/d/1AnC34sPQerkcRRicMiYGccbyd2iWefuZmVxdrqvmMUE/edit?ts=5d697ecc" class="register-now p-3">Register Now</a>
+        </div>
+    </div>
+    <div class="w-100 text-center">
+        <a href="https://www.instagram.com/iiitdecell/" class="p-3"><i class="fab font-size fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ECell.IIITD/" class="p-3"><i class="fab font-size fa-facebook"></i></a>
     </div>
 </body>
