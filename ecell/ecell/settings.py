@@ -23,6 +23,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 SECRET_KEY = 'u-ufeu@m^khsn&i%hbmys+t@55&d3i2ktn#2=fx#4uj8*ptfq5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
 #DEBUG = True
 DEBUG = False
 
@@ -88,7 +89,7 @@ DATABASES = {
         'USER': 'ecell',
         'PASSWORD': 'ecelliiitd',
         'HOST': 'localhost',
-        'PORT': '8000',
+        'PORT': '80',
     }
 }
 
@@ -142,4 +143,3 @@ MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, "static"),
-# ]
