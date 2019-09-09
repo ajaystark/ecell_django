@@ -11,3 +11,7 @@ class pitchcafe(generic.View):
     template="pitchcafe.html"
     def get(self,request):
         return render(request,self.template)
+class ecell(generic.View):
+    template="ecell.html"
+    def get(self,request):
+        return render(request,self.template)
