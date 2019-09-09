@@ -209,6 +209,7 @@ figure {
 					<li class="menu-item"><a href="#home" class="active"><span>Home</span></a></li>
 					<li class="menu-item"><a href="#about"><span>About</span></a></li>
 					<!-- <li class="menu-item"><a href="#schedule"><span>Schedule</span></a></li> -->
+					<li class="menu-item"><a href="#events"><span>Events</span></a></li>
 					<li class="menu-item"><a href="#gallery"><span>Gallery</span></a></li>
 					<li class="menu-item"><a href="#contact"><span>Contact</span></a></li>
 					<!-- <li class="menu-item"><a href="archive/2018/index.html">Visit Summer School 2018</a></li>
@@ -235,7 +236,7 @@ figure {
 		color: #8F2945;
 		letter-spacing: 0;
 		text-align: center;
-		padding:60px 0px;
+		/* padding:60px 0px; */
 	}
 	section.about p{
 		font-family: Overpass;
@@ -248,8 +249,8 @@ figure {
 	</style>
 		<section class="about" id="about">
 			<div class="container">
-				<h2 class="title">About</h2>
-					<div class="row">
+				<h2 class="title p-md-5 p-3">About</h2>
+					<div class="row p-3">
 						<p>
 							Nowadays people are afraid to take risks. Entreprenuership is one of those. Its elemental definition is "owing a business
 							with some risks in order to make profit". We at E-Cell of IIIT Delhi have those hormones in our andrenals to take those 
@@ -288,8 +289,8 @@ figure {
 			</div>
 		</section>
 
-		<section class="f">
-		<h2 class="title">Events</h2>
+		<section class="f" id="events">
+		<h2 class="title p-md-5 p-3">Events</h2>
 
 		<div class="col-md-3 f" style="background: #002942">
 			<h2>INCEPTION <br> Ideathon</h2>
@@ -468,8 +469,8 @@ figure {
 	</style>
 
 	<section class="photos pb-0" id="gallery" style="background-color: #fad390; margin-top: -30px;">
-		<div class="w3-container">
-			<h2 class="title">Gallery</h2>
+		<div class="w3-container mt-5">
+			<h2 class="title p-5">Gallery</h2>
 		</div>
 
 		<div class="w3-content w3-display-container" style="max-width:800px;">
@@ -594,13 +595,13 @@ figure {
 		font-family: kohinoor;
 		font-size:20px;
 		color:#fff;
-		padding:50px;
+		/* padding:50px; */
 	}
 	div.ss-slider a.unslider-arrow{
 		display: none!important;
 	}
 	section#gall{
-		padding:15px 70px;
+		/* padding:15px 70px; */
 	}
 </style>
 <style>
@@ -616,7 +617,7 @@ figure {
 		color: #8F2945;
 		letter-spacing: 0;
 		text-align: center;
-		padding:60px 0px;
+		/* padding:60px 0px; */
 	}
 	section.schoolMessage p{
 		font-family: Overpass;
@@ -627,8 +628,8 @@ figure {
 		line-height: 26px;
 	}
 	</style>
-	<section class="schoolMessage" id="schoolMessage">
-		<div class="container d-none">
+	<section class="schoolMessage d-none" id="schoolMessage">
+		<div class="container">
 			<h2 class="title">Message from Schools</h2>
 				<div class="row">					
 					<p>We at RPVV lajpat Nagar had a really eventful year. Our students performed very well at the home exams and we are hoping for great results at the Boards too. You mentored our students and shared your precious time, resources and ideas with them. Your organization helped us realize the vision we had for our school and students.
@@ -696,16 +697,16 @@ figure {
 			font-family: Roboto Slab;
 		}
 	</style>
-	<section id="gall" class="col-md-12" style="background: #3fad8d url(&quot;{% static 'img/ss-bg2.jpg' %}&quot;);background-size:cover;">
+	<section id="gall" class="col-md-12  p-md-5 p-3" style="background: #3fad8d url(&quot;{% static 'img/ss-bg2.jpg' %}&quot;);background-size:cover;">
 		<div class="container" style="text-align: center">
-		<h2>Entrepreneur Quotes</h2>
+		<h2 class="py-3">Entrepreneur Quotes</h2>
 			<!-- <p>Student Experiences</p> -->
 			<div class="ss-slider">
 				<ul>
-					<li>"Only the paranoid survive." <br> -Andy Grove, former CEO of Intel</li>
-					<li>"Don’t let others convince you that the idea is good when your gut tells you it’s bad." <br> -Kevin Rose, co-founded Digg</li>
-					<li>"In the age of transparency, honesty, and generosity, even in the form of an apology, generate goodwill."<br> -Alexander Asseily, founder of Jawbone</li>
-					<li>"It’s necessary to find a mentor who can invest time to know your personal capabilities and business model."<br> -Nigel Davies, Founder of Claromentis</li>
+					<li class="p-3">"Only the paranoid survive." <br> -Andy Grove, former CEO of Intel</li>
+					<li class="p-3">"Don’t let others convince you that the idea is good when your gut tells you it’s bad." <br> -Kevin Rose, co-founded Digg</li>
+					<li class="p-3">"In the age of transparency, honesty, and generosity, even in the form of an apology, generate goodwill."<br> -Alexander Asseily, founder of Jawbone</li>
+					<li class="p-3">"It’s necessary to find a mentor who can invest time to know your personal capabilities and business model."<br> -Nigel Davies, Founder of Claromentis</li>
 				</ul>
 			</div>
 		</div>
@@ -730,7 +731,7 @@ figure {
 		min-height: 300px;
 		width: 100%;
 		font-family: Kohinoor;
-		padding:30px;
+		/*padding:30px;*/
 	}
 	section.contact p, section.contact ul, section.contact h2{
 		color:#fff;
@@ -757,8 +758,10 @@ figure {
 	</style>
 
 	<section class="contact" id="contact">
-	<div class="container" style="margin-top: 150px;">
-		<h2 class="title">Contact</h2>
+	<div class="container">
+		<div class="py-md-5 my-md-5"></div>
+		<div class="py-md-5 my-md-5 p-3"></div>
+		<h2 class="title p-md-5 p-3">Contact</h2>
 		<div class="row">
 			<div class="col-md-6">
 				<div class="row">
@@ -770,20 +773,15 @@ figure {
 										<br><a href="mailto:yash17210@iiitd.ac.in">yash17210@iiitd.ac.in</a>
 										<br>7404343895</span>
 								</li>
-								<li class="coo">Arsh Verma    
+								<li class="coo">Sanchit   
 									<span class="coo-contact">
-										<br><a href="mailto:arsh17221@iiitd.ac.in">arsh17221@iiitd.ac.in</a>
-										<br>9958557300</span>
-								</li>
-								<li class="coo">Sheetu Ahuja
-									<span class="coo-contact">
-										<br><a href="mailto:sheetu@iiitd.ac.in">sheetu@iiitd.ac.in</a>
-										</span>
+										<br><a href="mailto:sanchit17312@iiitd.ac.in">Sanchit17312@iiitd.ac.in</a>
+										<br>9810725811</span>
 								</li>
 							</ul>
 						</p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 d-none">
 						<p>
 							<ul class="coo">
 								<li class="coo">Divyanshu Kumar Singh   
@@ -803,7 +801,7 @@ figure {
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 px-md-3 p-0">
 				<div class="mapouter"><div class="gmap_canvas"><iframe width="550" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=Indraprastha%20Institute%20of%20information%20Technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net">crocothemes</a></div><style>.mapouter{position:relative;text-align:right;height:450px;width:550px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:550px;}</style></div>
 			</div>
 		</div>
