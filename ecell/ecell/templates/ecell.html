@@ -24,7 +24,7 @@ html{
 }
 .header{
 	min-height: 700px;
-	background:#fa983a url("{% static 'ecell-logo.png' %}");
+	background:#74b9ff url("{% static 'ecell-logo.png' %}");
 	background-repeat: no-repeat;
     background-position: center;
     background-size: contain;    
@@ -74,7 +74,7 @@ body{
 	/*color: #F74C39;*/
 	letter-spacing: 0;
 	text-align: center;
-	background: #8F2945;
+	background: #1e90ff;
 	/*background: #F74C39;*/
 	border-radius: 6px;
 	border:0px;
@@ -182,8 +182,8 @@ figure {
 #colorstrip{
     width: 100%; height: 8px;
     border-style: solid;
-    border-color: #8F2945;
-    background-color: #8F2945;
+    border-color: #1e90ff;
+    background-color: #1e90ff;
 }
 
 #colorstrip-ext{
@@ -201,11 +201,11 @@ figure {
 	<section class="header parallax" id="home">
 		<header>
 			<nav class="cd-stretchy-nav" id="navbar">
-				<a class="cd-nav-trigger" href="#0">
+				<a class="cd-nav-trigger" href="#0" style="background:#1e90ff !important;">
 					<span aria-hidden="true"></span>
 				</a>
 
-				<ul style="background:#8F2945; border-radius: 32px;">
+				<ul style="background:#1e90ff; border-radius: 32px;">
 					<li class="menu-item"><a href="#home" class="active"><span>Home</span></a></li>
 					<li class="menu-item"><a href="#about"><span>About</span></a></li>
 					<!-- <li class="menu-item"><a href="#schedule"><span>Schedule</span></a></li> -->
@@ -233,7 +233,7 @@ figure {
 		font-family: Roboto Slab;
 		font-weight: 700;
 		font-size: 45px;
-		color: #8F2945;
+		color: #1e90ff;
 		letter-spacing: 0;
 		text-align: center;
 		/* padding:60px 0px; */
@@ -468,7 +468,7 @@ figure {
 		.w3-badge {height:13px;width:13px;padding:0}
 	</style>
 
-	<section class="photos pb-0" id="gallery" style="background-color: #fad390; margin-top: -30px;">
+	<section class="photos pb-5" id="gallery" style=" margin-top: -30px;">
 		<div class="w3-container mt-5">
 			<h2 class="title p-5">Gallery</h2>
 		</div>
@@ -563,13 +563,16 @@ figure {
 		.mabout .col-md-6{
 			height: 400px;
 		}
+		.primary-color{
+			color: #1e90ff;
+		}
 	</style>
 
 	<section class="mabout d-none">
 		<div class="row row2">
 			<div class="col-md-6 col2" style="background: #FFFFFF;height:500px">
 				<div class="card">
-				<h2 style="color: #8F2945;">Participating Schools</h2>
+				<h2 class="primary-color">Participating Schools</h2>
 				<ul>
 					<li>RPVV - Class 8th, Lajpat Nagar</li>
 					<li>School of Excellence, Kalkaji</li>
@@ -581,7 +584,7 @@ figure {
 			</div>
 			<div class="col-md-6 col2" style="background: url(v.png);height:500px;background-size: cover;">
 				<div class="card-2">
-				<h2 style="color: #8F2945;">Volunteers from IIIT-D</h2>
+				<h2 class="primary-color">Volunteers from IIIT-D</h2>
 				<p> 
 					Summer Camp 2019 is run and organized by a team of students from IIIT-Delhi. The team comprises of 4 coordinators and 30+ volunteers from B.Tech batches. The coordinators and volunteers are further guided by IIIT-D Faculty and Staff. The coordinators are actively involved in building curriculum, training the volunteers, managing summer camp activities and motivating volunteers to teach and manage the kids effectively. A set of volunteers are made responsible for daily sessions and take care of the students around the campus.
 				</p>
@@ -614,7 +617,7 @@ figure {
 		font-family: Roboto Slab;
 		font-weight: 700;
 		font-size: 45px;
-		color: #8F2945;
+		color: #1e90ff;
 		letter-spacing: 0;
 		text-align: center;
 		/* padding:60px 0px; */
@@ -824,12 +827,12 @@ figure {
 				</ul>
 			</div> -->
 			<div class="row">
-				<span class="col-md-6 col-12">
-					<a href="https://iiitd.ac.in"><img src="{% static 'img/iiitd-white-logo.png' %}" class="img-responsive" style=" height: 200px;"></a>	
-				</span>
-				<span class="col-md-6 col-12">
-					<a href="http://iic.iiitd.ac.in/"><img src="{% static 'img/iic-logo.png' %}" class="img-responsive" style="height: 200px;"></a>		
-				</span>
+				<div class="col-md col-12">
+					<a href="https://iiitd.ac.in"><img src="{% static 'img/iiitd-white-logo.png' %}" style=" height: 200px;"></a>	
+				</div>
+				<div class="col-md col-12">
+					<a href="http://iic.iiitd.ac.in/"><img src="{% static 'img/iic-logo.png' %}" style="height: 200px;"></a>		
+				</div>
 			</div>
 		</div>
 	</footer>
