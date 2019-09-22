@@ -137,7 +137,7 @@ STATIC_URL = '/static/'
 #                     os.path.join(STATIC_ROOT, 'images/')
 #                   )
 STATICFILES_DIRS = (
-        "/Users/ajay/Desktop/ecell_django/ecell/static",
+        "/home/iiitd/ecell_django/ecell/static",
 )
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
