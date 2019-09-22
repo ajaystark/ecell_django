@@ -70,7 +70,6 @@ Stretchy Nav style - common to:
   height: 60px;
   border-radius: 30px;
   background: #1e90ff;
-
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: height 0.2s, box-shadow 0.2s;
   -moz-transition: height 0.2s, box-shadow 0.2s;
