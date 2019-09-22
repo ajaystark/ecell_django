@@ -69,7 +69,7 @@ Stretchy Nav style - common to:
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: #8F2945;
+  background: #1e90ff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: height 0.2s, box-shadow 0.2s;
   -moz-transition: height 0.2s, box-shadow 0.2s;
@@ -80,7 +80,7 @@ Stretchy Nav style - common to:
 }
 .cd-stretchy-nav.nav-is-visible .stretchy-nav-bg {
   height: 100%;
-  box-shadow: 0 6px 30px #8F2945;
+  box-shadow: 0 6px 30px #1e90ff;
 }
 
 .cd-nav-trigger {
