@@ -15,3 +15,7 @@ class ecell(generic.View):
     template="ecell.html"
     def get(self,request):
         return render(request,self.template)
+class ecell_new(generic.View):
+    template="new.html"
+    def get(self,request):
+        return render(request,self.template)
