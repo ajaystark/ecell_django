@@ -19,3 +19,7 @@ class ecell_new(generic.View):
     template="new.html"
     def get(self,request):
         return render(request,self.template)
+class ca(generic.View):
+    template="ca.html"
+    def get(self,request):
+        return render(request,self.template)
