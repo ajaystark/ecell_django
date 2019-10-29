@@ -25,8 +25,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('old',homepage.as_view(),name="home"),
     path('PitchCafe2.0',pitchcafe.as_view(),name="pitch cafe"),
-    path('',ecell.as_view(),name="ecell home"),
-    path('new',ecell_new.as_view(),name="new"),
+    path('new',ecell.as_view(),name="ecell home"),
+    path('',ecell_new.as_view(),name="new"),
     path('CA',ca.as_view(),name="new"),
     # re_path(r'^static/(?P<path>.*)$', views.serve),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
