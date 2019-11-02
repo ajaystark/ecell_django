@@ -27,7 +27,11 @@ urlpatterns = [
     path('PitchCafe2.0',pitchcafe.as_view(),name="pitch cafe"),
     path('new',ecell.as_view(),name="ecell home"),
     path('',ecell_new.as_view(),name="new"),
-    path('CA',ca.as_view(),name="new"),
+    path('home',ecell_new.as_view(),name="home"),
+    path('CA',ca.as_view(),name="CA"),
+    path('blog',blog.as_view(),name="blog"),
+    path('blog1',blog1.as_view(),name="blog1"),
+    # path('blog1',blog1.as_view(),name="blog1"),
     # re_path(r'^static/(?P<path>.*)$', views.serve),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 # urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT),

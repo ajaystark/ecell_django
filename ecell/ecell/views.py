@@ -20,6 +20,14 @@ class ecell_new(generic.View):
     def get(self,request):
         return render(request,self.template)
 class ca(generic.View):
-    template="ca.html"
+    template="campus.html"
+    def get(self,request):
+        return render(request,self.template)
+class blog(generic.View):
+    template="blog.html"
+    def get(self,request):
+        return render(request,self.template)
+class blog1(generic.View):
+    template="blog1.html"
     def get(self,request):
         return render(request,self.template)
