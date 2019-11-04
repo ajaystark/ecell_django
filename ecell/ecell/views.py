@@ -31,3 +31,7 @@ class blog1(generic.View):
     template="blog1.html"
     def get(self,request):
         return render(request,self.template)
+class proposal(generic.View):
+    template="proposal.html"
+    def get(self,request):
+        return render(request,self.template)
