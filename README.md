@@ -1,2 +1,2 @@
 # ecell_django
-Ecell Website on django server
+E-Cell IIITD Website on django server
