@@ -31,6 +31,7 @@ urlpatterns = [
     path('CA',ca.as_view(),name="CA"),
     path('blog',blog.as_view(),name="blog"),
     path('blog1',blog1.as_view(),name="blog1"),
+    path('blog2',blog2.as_view(),name="blog2"),
     path('proposal',proposal.as_view(),name="proposal"),
     # path('blog1',blog1.as_view(),name="blog1"),
     # re_path(r'^static/(?P<path>.*)$', views.serve),
