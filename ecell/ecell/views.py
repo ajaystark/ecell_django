@@ -39,3 +39,8 @@ class proposal(generic.View):
     template="proposal.html"
     def get(self,request):
         return render(request,self.template)
+
+class esummit(generic.View):
+    template="esummit.html"
+    def get(self,request):
+        return render(request,self.template)
