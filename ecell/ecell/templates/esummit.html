@@ -1,0 +1,155 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:description" content="" />
+    <link rel="canonical" href="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta name="description" content="" />
+    <link rel="icon" href="" type="image/x-icon"/>
+    <script type="application/ld+json">
+        {"url":"","headline":"","name":"","description":"","@type":"WebSite","@context":"https://schema.org"}
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152720382-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-152720382-1');
+    </script>
+    <title></title>
+    <link href="{% static 'esummit/main.css'%}" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  
+  <style>
+    body{
+      background-image: url("{% static 'esummit/assets/img/Background.png'%}");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    @media (max-width:576px){
+      body{
+        background-image: url("{% static 'esummit/assets/img/Background_phone.png'%}");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  </style>
+
+  <body>
+    <img src="{% static 'esummit/assets/img/ecell-logo.png'%}"  class="d-none d-md-block" style="height: 100px; position: absolute; top: 15px; left: 15px;">
+    <img src="{% static 'esummit/assets/img/ecell-logo.png'%}"  class="d-block d-md-none" style="height: 50px; position: absolute; top: 15px; left: 15px;">
+    <img src="{% static 'esummit/assets/img/E-SUMMIT20.png'%}"  class="d-none d-md-block" style="height: 200px; position: absolute; bottom: 10px; left: 0px;">
+    <img src="{% static 'esummit/assets/img/tagline.png'%}"  class="d-none d-md-block" style="height: 20px; position: absolute; bottom: 30px; left: 30px;">
+    <div class="d-none d-md-block container-fluid fixed-top">
+      <div class="d-flex justify-content-end bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+          <img src="{% static 'esummit/assets/img/iiitd-logo.png'%}" style="height: 100px;">
+          <img src="{% static 'esummit/assets/img/i3c-logo.png'%}" style="height: 100px;">
+          <img src="{% static 'esummit/assets/img/iic-logo.png'%}" style="height: 100px;">
+        </div>
+      </div>
+    </div>
+    <div class="d-block d-md-none container-fluid fixed-top">
+      <div class="d-flex justify-content-end bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+          <img src="{% static 'esummit/assets/img/iiitd-logo.png'%}" style="height: 25px;">
+          <img src="{% static 'esummit/assets/img/i3c-logo.png'%}" style="height: 25px;">
+          <img src="{% static 'esummit/assets/img/iic-logo.png'%}" style="height: 25px;">
+        </div>
+      </div>
+    </div>
+    <section class="min-vh-100 py-5 o-hidden">
+      <div class="container position-relative layer-2">
+        <div class="row justify-content-center mb-md-6">
+          <div class="col-auto">
+          </div>
+        </div>
+        <div class="row justify-content-center py-6 text-light">
+          <div class="col text-center">
+            <h1 class="display-3">Coming Soon</h1>
+            <div class="lead">Hold tight, we're still preparing for our product launch. Stay tuned.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 add-countdown-time" data-detailed>
+            <div data-active class="row text-center">
+
+              <div class="col-md">
+                <div class="card card-body" data-aos="fade-up" data-aos-delay="200">
+                  <span class="h1 text-primary mb-2 daysleft" data-days data-format="%d"></span>
+                  <span class="h6 mb-0" data-days-label>Days</span>
+                </div>
+              </div>
+
+              <div class="col-md">
+                <div class="card card-body" data-aos="fade-up" data-aos-delay="300">
+                  <span class="h1 text-primary mb-2 hoursleft" data-hours></span>
+                  <span class="h6 mb-0" data-hours-label>Hours</span>
+                </div>
+              </div>
+
+              <div class="col-md">
+                <div class="card card-body" data-aos="fade-up" data-aos-delay="400">
+                  <span class="h1 text-primary mb-2 minutesleft" data-minutes></span>
+                  <span class="h6 mb-0" data-minutes-label>Minutes</span>
+                </div>
+              </div>
+
+              <div class="col-md">
+                <div class="card card-body" data-aos="fade-up" data-aos-delay="500">
+                  <span class="h1 text-primary mb-2 secondsleft" data-seconds></span>
+                  <span class="h6 mb-0" data-seconds-label>Seconds</span>
+                </div>
+              </div>
+            </div>
+            <div data-elapsed class="d-none">
+              <h4>This is the fallback for when the countdown is elapsed</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({once: true});
+      let weeksleft= 48;
+      let daysleft= 365;
+      let hoursleft= 365*24;
+      let minutesleft= hoursleft*60;
+      let secondsleft= minutesleft*60;
+      $(document).ready(function(){
+        $('.weeksleft').text(weeksleft);
+        $('.daysleft').text(daysleft);
+        $('.hoursleft').text(hoursleft);
+        $('.minutesleft').text(minutesleft);
+        $('.secondsleft').text(secondsleft);
+        setInterval(function(){
+          var t = Date.parse(new Date("March 20, 2020 17:00:00")) - Date.parse(new Date());
+          var seconds = Math.floor( (t/1000) % 60 );
+          var minutes = Math.floor( (t/1000/60) % 60 );
+          var hours = Math.floor( (t/(1000*60*60)) % 24 );
+          var days = Math.floor( t/(1000*60*60*24) );
+          var weeks = Math.floor( t/(1000*60*60*24*7) );
+          $('.weeksleft').text(weeks.toString());
+          $('.daysleft').text(days.toString());
+          $('.hoursleft').text(hours.toString());
+          $('.minutesleft').text(minutes.toString());
+          $('.secondsleft').text(seconds.toString());
+          }, 1000);
+      });
+    </script>
+  </body>
+</html>
