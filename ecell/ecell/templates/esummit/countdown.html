@@ -24,21 +24,21 @@
       gtag('js', new Date());
       gtag('config', 'UA-152720382-1');
     </script>
-    <title></title>
-    <link href="../../../static/esummit/main.css" rel="stylesheet" type="text/css" media="all" />
+    <title></title> 
+    <link href="{% static 'esummit/main.css'%}" rel="stylesheet" type="text/css" media="all" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   
   <style>
     body{
-      background-image: url("../../../static/esummit/assets/img/Background.png");
+        background-image: url("{% static 'esummit/assets/img/Background.png'%}");
       background-repeat: no-repeat;
       background-size: 100% 100%;
     }
 
     @media (max-width:576px){
       body{
-        background-image: url("../../../static/esummit/assets/img/Background_phone.png");
+        background-image: url("{% static 'esummit/assets/img/Background_phone.png'%}");
         background-repeat: no-repeat;
         background-size: 100% 100%;
       }
