@@ -243,7 +243,7 @@ let eventData = [
 	<p><br /><br /><br /></p>
 	`,
     `
-	<iframe src="https://www.townscript.com/widget/godfather-114110" frameborder="0" height="600" width="80%"></iframe>
+	<iframe src="https://www.townscript.com/widget/godfather-114110" frameborder="0" height="250" width="80%"></iframe>
 	<p><strong><em>Description:</em></strong></p>
 	<p><em><span style="font-weight: 400;">&ldquo;Great men are not born great, they grow great.&rdquo;- Don Vito Corleone</span></em></p>
 	<p><em><span style="font-weight: 400;">&nbsp;E-Summit&rsquo;20 brings to you &lsquo;Godfather&rsquo;, an event like never before, the perfect event to test out your business instinct, knowledge and your street smarts.</span></em></p>
@@ -293,7 +293,7 @@ let eventData = [
 	<p><br /><br /><br /></p>
 	`,
     `
-	<iframe src="https://www.townscript.com/widget/wolf-of-wall-street-144114" frameborder="0" height="600" width="80%"></iframe>
+	<iframe src="https://www.townscript.com/widget/wolf-of-wall-street-144114" frameborder="0" height="250" width="80%"></iframe>
 	<p><strong>Description:</strong></p>
 	<p><em><span style="font-weight: 400;">In life, you don&rsquo;t get what you deserve. You get what you negotiate.</span></em></p>
 	<p><span style="font-weight: 400;">Our event aims to create a business simulation that tests these very negotiation skills. Complete with production and trading opportunities, the game will cultivate holistic thinking and decision making skills among the participants in a dynamic, competitive and fun environment. You need to optimally utilize the resources provided, trade goods with others gathering the scarce goods and maximize profit for yourself. The prices of the goods fluctuate with availability. Compete to win this battle of wits and take away the fortune!</span></p>
@@ -337,7 +337,7 @@ let eventData = [
 	<p><br /><br /><br /></p>
 	`,
     `
-	<iframe src="https://www.townscript.com/widget/stock-pitch-024320" frameborder="0" height="600" width="80%">
+	<iframe src="https://www.townscript.com/widget/stock-pitch-024320" frameborder="0" height="250" width="80%">
 	<p><span style="font-weight: 400;">Overview:</span><span style="font-weight: 400;">Acceptance and shunning of risk at the same time ; one investment or diversification ; pursuit of&nbsp; numbers; aversion of red flags : Dive into the world of stocks where the elixir of wealth flows without slope towards the patient.</span></p>
 	<p><span style="font-weight: 400;">&ldquo;Many people get interested in stocks when everyone else is.The time to get interested is when no one else is.You can&rsquo;t buy what is popular and do well.&rdquo;:Warren Buffett.</span><span style="font-weight: 400;"><br /><br /></span></p>
 	<p><span style="font-weight: 400;">Tagline</span><span style="font-weight: 400;">:Playing safe is not an option.:Garvita</span></p>
@@ -361,7 +361,7 @@ let eventData = [
 	<p><br /><br /><br /></p>
 	`,
     `
-	<iframe src="https://www.townscript.com/widget/stock-market-simulation-042141" frameborder="0" height="600" width="80%"></iframe>
+	<iframe src="https://www.townscript.com/widget/stock-market-simulation-042141" frameborder="0" height="250" width="80%"></iframe>
 	<p><span style="font-weight: 400;">Tagline</span><span style="font-weight: 400;">:-</span></p>
 	<p><span style="font-weight: 400;">Press your brakes and hold your stakes.</span></p>
 	<p><span style="font-weight: 400;">Wise or noobs, it's your time to choose.</span></p>
@@ -383,7 +383,7 @@ let eventData = [
 	<p><br /><br /><br /></p>
 	`,
     `
-	<iframe src="https://www.townscript.com/widget/pitch-cafe-30-143004" frameborder="0" height="600" width="80%"></iframe>
+	<iframe src="https://www.townscript.com/widget/pitch-cafe-30-143004" frameborder="0" height="250" width="80%"></iframe>
 	<p><span style="font-weight: 400;">Event Description:</span></p>
 	<p>&nbsp;</p>
 	<p><span style="font-weight: 400;">Participation fees - Free</span></p>
@@ -444,7 +444,7 @@ let eventData = [
 	<p><br /><br /></p>
 	`,
     '<br><br>More details coming soon.<br>Stay tuned!',
-    `<iframe src="https://www.townscript.com/widget/ipl-simulation-102104" frameborder="0" height="600" width="80%"></iframe>
+    `<iframe src="https://www.townscript.com/widget/ipl-simulation-102104" frameborder="0" height="250" width="80%"></iframe>
 	<p><strong>Description:&nbsp;</strong></p>
 	<p><span style="font-weight: 400;">E-Summit 2020 brings to you IPL Auction, an exciting combination of entrepreneurship and cricket which consists of 2 rounds. The motivation is to test the art of using limited resources for getting the best possible results. After all, &ldquo;Doing More with Less&rdquo; is just what the world demands today!. Demanding lesser cricketing knowledge, it is based more on </span><span style="font-weight: 400;">encouraging participants to make wise choices, taking calculated risks, keeping the future prospects in mind.</span></p>
 	<p>&nbsp;</p>
