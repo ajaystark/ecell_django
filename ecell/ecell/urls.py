@@ -26,7 +26,7 @@ urlpatterns = [
     path('old',homepage.as_view(),name="home"),
     path('PitchCafe2.0',pitchcafe.as_view(),name="pitch cafe"),
     path('new',ecell.as_view(),name="ecell home"),
-    path('',ecell_new.as_view(),name="new"),
+    path('',esummit.as_view(),name="esummit"),
     path('home',ecell_new.as_view(),name="home"),
     path('CA',ca.as_view(),name="CA"),
     path('blog',blog.as_view(),name="blog"),
@@ -34,7 +34,7 @@ urlpatterns = [
     path('blog2',blog2.as_view(),name="blog2"),
     path('proposal',proposal.as_view(),name="proposal"),
     path('esummit/<name>/',esummit.as_view(),name="esummit"),
-    path('esummit/',countdown.as_view(),name="esummit"),
+    path('esummit/',esummit.as_view(),name="esummit"),
     # path('blog1',blog1.as_view(),name="blog1"),
     # re_path(r'^static/(?P<path>.*)$', views.serve),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -42,9 +42,10 @@ class proposal(generic.View):
 
 class esummit(generic.View):
     template="esummit.html"
-    def get(self,request,name):
+    def get(self , request, name="home"):
         template='esummit/'+name+'.html'
         return render(request,template)
+
 class countdown(generic.View):
     def get(self,request):
         template='esummit/countdown.html'
