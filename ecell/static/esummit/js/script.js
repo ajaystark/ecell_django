@@ -231,7 +231,7 @@ let eventData = [
 	<p>&nbsp;</p>
 	<p><span style="font-weight: 400;">Rules</span></p>
 	<ol>
-	<li style="font-weight: 400;"><span style="font-weight: 300;">Each team should consist of at least 2 and at most 4 members.</span></li>
+	<li style="font-weight: 400;"><span style="font-weight: 300;">Each team should consist of at least 2 and at most 5 members.</span></li>
 	<li style="font-weight: 400;"><span style="font-weight: 300;">There is no restriction over the kind of product a team wants to build (Hardware or Software), but the teams would have to bring their material (laptops, cables, modules, microprocessors, etc.) to build them. A few extension cords and LAN cables would be provided. Mattresses will be available for resting/sleeping.</span></li>
 	<li style="font-weight: 400;"><span style="font-weight: 300;">Using pre-builds or boilerplate code will be allowed but the team must properly acknowledge its use and get it verified by the organisers before they start hacking.</span></li>
 	<li style="font-weight: 300;"><span style="font-weight: 300;">All teams must take their deadlines given to them seriously, no submissions will be accepted once the deadline has passed.</span></li>
@@ -295,46 +295,10 @@ let eventData = [
     `
 	<iframe src="https://www.townscript.com/widget/wolf-of-wall-street-144114" frameborder="0" height="250" width="80%"></iframe>
 	<p><strong>Description:</strong></p>
-	<p><em><span style="font-weight: 400;">In life, you don&rsquo;t get what you deserve. You get what you negotiate.</span></em></p>
-	<p><span style="font-weight: 400;">Our event aims to create a business simulation that tests these very negotiation skills. Complete with production and trading opportunities, the game will cultivate holistic thinking and decision making skills among the participants in a dynamic, competitive and fun environment. You need to optimally utilize the resources provided, trade goods with others gathering the scarce goods and maximize profit for yourself. The prices of the goods fluctuate with availability. Compete to win this battle of wits and take away the fortune!</span></p>
-	<p><span style="font-weight: 400;">Prize: TBA</span></p>
-	<p><span style="font-weight: 400;">Team size: 3</span></p>
-	<p><span style="font-weight: 400;">RULES:</span></p>
-	<p><strong><em>ROUND 1&nbsp;</em></strong></p>
-	<ol>
-	<li style="font-weight: 400;"><span style="font-weight: 400;">Varied resources will be arranged and distributed randomly among the participating teams.</span></li>
-	<li style="font-weight: 400;"><span style="font-weight: 400;">Virtual money will be equally distributed among the teams to buy more resources.</span></li>
-	<li style="font-weight: 400;"><span style="font-weight: 400;">The teams must produce market goods within the stipulated time using these resources.</span></li>
-	<li style="font-weight: 400;"><span style="font-weight: 400;">The quantity of goods to be produced will be decided by the teams. Their ultimate goal will be to maximize profit.</span></li>
-	<li style="font-weight: 400;"><span style="font-weight: 400;">Teams are allowed to trade goods with one another to gather those which they think are scarce and would get them the most profits.&nbsp;</span></li>
-	<li style="font-weight: 400;"><span style="font-weight: 400;">The market prices will keep fluctuating based on total production of goods.</span></li>
-	<li style="font-weight: 400;"><span style="font-weight: 400;">The ones with the highest valued portfolios will be declared the winners.</span></li>
-	<li style="font-weight: 400;"><span style="font-weight: 400;">The top 5-7 teams will advance to the next round. All qualifying teams will receive gift coupons.</span></li>
-	</ol>
-	<p><strong><em>ROUND 2</em></strong></p>
-	<ol>
-	<li><span style="font-weight: 400;">Participants will receive a rumor sheet and a rule response sheet.</span></li>
-	<li><span style="font-weight: 400;">The second round is all about investing your money in various companies and maximize your portfolio on the basis of rumors. There are two ways through which you get to make your profit. It's either buying shares or short-selling.</span></li>
-	<li><span style="font-weight: 400;">Short Selling: This is a concept where an investor sells the share which he actually doesn&rsquo;t own. So, basically it is done when you expect a share price to fall. For example, if an investor thinks that Tesla (TSLA) stock is overvalued at $315 per share, and is going to drop in price, the investor may borrow 10 shares of TSLA from their broker and sells it for the current market price of $315. If the stock goes down to $300, the investor could buy the 10 shares back at this price, return the shares to her broker, and net a profit of $315 (selling price) - $300 (buying price) = $15 per share.</span></li>
-	</ol>
-	<p><span style="font-weight: 400;">3.1 Participants have to short sell at least 1 company share.</span></p>
-	<p><span style="font-weight: 400;">3.2 Budget for short selling is 1,00,000 rupees.</span></p>
-	<p><span style="font-weight: 400;">3.3 Participants can short sell maximum of rupees 50,000 in a single company.</span></p>
-	<p>&nbsp;</p>
-	<ol start="4">
-	<li><span style="font-weight: 400;">Buying: You have rumors on the basis of which you&rsquo;ll have to invest (buy) in different companies.&nbsp;</span></li>
-	</ol>
-	<p><span style="font-weight: 400;">4.1.</span> <span style="font-weight: 400;">You have to invest in at least 3 companies</span></p>
-	<p><span style="font-weight: 400;">4.2.</span> <span style="font-weight: 400;">The budget for buying is Rs. 2,50,000 (total).</span></p>
-	<p><span style="font-weight: 400;">4.3.</span> <span style="font-weight: 400;">The maximum amount that you can invest(buy)in a single company is Rs. &nbsp; 1,00,000.</span></p>
-	<p>&nbsp;</p>
-	<ol start="5">
-	<li><span style="font-weight: 400;">Use of simple calculators is allowed.</span></li>
-	<li><span style="font-weight: 400;">If your investment exceeds the budget or you are not able to abide by the previous mentioned rules, you will be directly DISQUALIFIED.</span></li>
-	<li><span style="font-weight: 400;">Enter only the quantity in the space given in the response sheet that you want to buy/short-sell.</span></li>
-	<li><span style="font-weight: 400;">You can buy shares in whole numbers only. No decimals are allowed for quantity. For eg. Buying of 55.5 shares is not allowed, it has to be either 55 or 56.</span></li>
-	</ol>
-	<p><br /><br /><br /></p>
+	<p>In life, you don&rsquo;t get what you deserve. You get what you negotiate.<br />Our event aims to create a business simulation that tests these very negotiation skills. Complete with production and trading opportunities, the game will cultivate holistic thinking and decision making skills among the participants in a dynamic, competitive and fun environment. You need to optimally utilize the resources provided, trade goods with others gathering the scarce goods and maximize profit for yourself. The prices of the goods fluctuate with availability. Compete to win this battle of wits and take away the fortune!</p>
+<p><br />Structure: <br />1. Group event<br />2.Team Size: 3<br />3. Two rounds</p>
+<p>ROUND 1 <br />This will be a preliminary round which will include questions that will test your understanding of business, markets and economics. The top 15 teams will be shortlisted and the top three will be given exciting prizes and will have a surprise advantage in the second round.</p>
+<p>ROUND 2<br />1.Varied resources will be arranged and distributed randomly among the participating teams.<br />2. Virtual money will be equally distributed among the teams to buy more resources.<br />3. The teams must produce market goods within the stipulated time using these resources.<br />4. The quantity of goods to be produced will be decided by the teams. Their ultimate goal will be to maximize profit.<br />5. Teams are allowed to trade goods with one another to gather those which they think are scarce and would get them the most profits. <br />6. The ones with the highest valued portfolios will be declared the winners.</p>
 	`,
     `
 	<iframe src="https://www.townscript.com/widget/stock-pitch-024320" frameborder="0" height="250" width="80%">

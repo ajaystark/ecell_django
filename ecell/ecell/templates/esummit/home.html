@@ -1,227 +1,236 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" type="text/css" href="{% static 'esummit/css/style.css'%}">
-		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Nunito:700,800,900|Alata|Cabin:500,600,700|Comfortaa:500,600,700|Quicksand:400,500,600,700|Six+Caps&display=swap" rel="stylesheet">
-		
-		<title>ESUMMIT | E-Cell IIIT Delhi</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53684035-3"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+    <link rel="stylesheet" type="text/css" href="{% static 'esummit/css/style.css'%}">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Nunito:700,800,900|Alata|Cabin:500,600,700|Comfortaa:500,600,700|Quicksand:400,500,600,700|Six+Caps&display=swap" rel="stylesheet">
 
-			gtag('config', 'UA-53684035-3');
-		</script>
+    <title>ESUMMIT | E-Cell IIIT Delhi</title>
 
-		<script type="text/javascript" src="{% static 'esummit/js/jquery.js'%}"></script>
-		<script type="text/javascript" src="{% static 'esummit/js/velocity.min.js'%}"></script>
-		<script type="text/javascript" src="{% static 'esummit/js/script.js'%}"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53684035-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-	</head>
-	<body>
-		
-		
-		<div id="follow">
-			<a href="https://chat.whatsapp.com/CPpBvQm5wYQEY072OiXWR1" target="_blank">			
-				<img src="{% static 'esummit/img/whatsapp.png'%}">
-				Join WhatsApp Group
-			</a>
-		</div>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-		<div id="load-cont">
-			<div id="load"></div>
-		</div>		
+        gtag('config', 'UA-53684035-3');
+    </script>
 
-		<div class="dis" id='event-dis'>
-			<img id="event-close" src="{% static 'esummit/img/close.png'%}">
-			<div id="event">
-				<div id="event-head"></div>
-				<div id="event-desc">
-				</div>
-			</div>
-		</div>
+    <script type="text/javascript" src="{% static 'esummit/js/jquery.js'%}"></script>
+    <script type="text/javascript" src="{% static 'esummit/js/velocity.min.js'%}"></script>
+    <script type="text/javascript" src="{% static 'esummit/js/script.js'%}"></script>
 
-		<div class="page" id='page-1'>
-			<div class="dis"></div>
-			<header>
-				<img id="header-logo" src="{% static 'esummit/img/esummit.png'%}">
-				<nav>
-					<div class="menu-item" id='menu-item-1'>Home</div>
-					<div class="menu-item" id='menu-item-2'>About</div>
-					<div class="menu-item" id='menu-item-4'>Speakers</div>
-					<div class="menu-item" id='menu-item-5'>Register</div>
-					<div class="menu-item" id='menu-item-6'>Contact</div>
-				</nav>
-			</header>
-			<h1><span>Augmenting</span><br>The Horizon</h1>	
-			<h3 class="sub-head"> <span>E-SUMMIT 20'</span><br>20<sup>th</sup> - 22<sup>nd</sup> March<br>IIIT Delhi</h3>
-			<canvas id="waves"></canvas>
-		</div>
-		<div class="page" id="page-2">
-			<h2 id="page-2-head">What's all the hype about?</h2><div id="page-2-desc">
-				<span>Immerse yourself in two days of entrepreneurial extravaganza!</span>
-				With an unprecedented amount of creativity, countless inspiring ideas, a confluence of entrepreneurial fanatics and a gamut of activities, the very first edition of E-Summit’2020 is here to celebrate and empower entrepreneurship amongst everyone, with the aim to bring together startup enthusiasts, new-age entrepreneurs, young ideators and venture capitalists on a single platform. With two days of jam-packed events and frenzy amongst all, be ready to encounter a plethora of opportunities coming your way!
-			</div>
-			<div id="page-2-event-cont">
-				<h3 id="page-2-events-head">Events</h3>
-				<div class="page-2-event" id='page-2-event-1'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>Productathon</h3>
-						Productathon is a 24 hour hackathon where enthusiasts across various domains collaborate to find solution to a provided problem statement.
-					</div>		
-				</div>
-				<div class="page-2-event" id='page-2-event-2'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>The Godfather</h3>
-						People participate for the thrill of taking over the underworld and emerge as the godfather and putting their grey cells to work to devise a winning strategy.
-					</div>		
-				</div>
-				<div class="page-2-event" id='page-2-event-3'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>Wolf of the Wall Street</h3>
-						In life, you don’t get what you deserve. You get what you negotiate. Our event aims to create a business simulation that tests these very negotiation skills.
-					</div>		
-				</div>
-				<div class="page-2-event" id='page-2-event-4'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>Stock - Pitch</h3>
-						A single page document for giving a recommendation to people about whether they should buy or sell a particular stock.
-					</div>		
-				</div>
-				<div class="page-2-event" id='page-2-event-5'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>Stock Market Simulation</h3>
-						Investment is an art which has become a necessity in the current world as the opportunity cost of money left idle keeps on increasing. This event gives participants a glimpse of the daily life of stock investors.
-					</div>		
-				</div>
-				<div class="page-2-event" id='page-2-event-6'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>Pitch Cafe 3.0</h3>
-						Different teams pitch their ideas in several rounds which are later judged and some of them are rewarded accordingly.
-					</div>		
-				</div>
-				<div class="page-2-event" id='page-2-event-7'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>Business Conclave</h3>
-						More details coming soon. Stay tuned!
-					</div>		
-				</div>
-				<div class="page-2-event" id='page-2-event-8'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>IPL Auction</h3>
-						The event, IPL Auction doesn’t just require the craze for cricket but it is also equally focused on bringing out the Entrepreneur in the participants.
-					</div>		
-				</div>
-				<div class="page-2-event" id='page-2-event-9'>
-					<div class="dis"></div>
-					<div class='page-2-event-det'>
-						<h3>Online Events</h3>
-						More details coming soon. Stay tuned!
-					</div>		
-				</div>
+</head>
+
+<body>
 
 
-			</div>
-		</div>
-		<div class="page" id='page-4'>
-			<canvas id="stars"></canvas>
-			<div id="page-4-head">Past<br>Speakers</div>
-			<div class="page-4-speaker" id="page-4-speaker-1">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Manish Sisodiya</h3>
-				<div class="page-4-speaker-desig">Deputy Chief Minister, Delhi</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-2">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Mr. Saurabh Jain</h3>
-				<div class="page-4-speaker-desig">Vice President and Head, Paytm</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-3">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Mr. Tushar Vyas</h3>
-				<div class="page-4-speaker-desig">Director and Co-Founder, Nanoclean Global</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-4">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Mr. Sanat Mondal</h3>
-				<div class="page-4-speaker-desig">Senior Investment Professional , Indian Angel Network</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-5">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Mr. Ajay Singh</h3>
-				<div class="page-4-speaker-desig">CIO and Co-Founder, DLT Labs</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-6">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Mr. Shishir Miglani</h3>
-				<div class="page-4-speaker-desig">CEO, Kurativz Technology</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-7">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Mr. Saarthak Bakshi</h3>
-				<div class="page-4-speaker-desig">Director, HeathPod India</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-8">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Dr. Amarjeet Singh</h3>
-				<div class="page-4-speaker-desig">Co-Founder Zenatix Solutions Pvt. Ltd.</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-9">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Mr. Hemant Kumar</h3>
-				<div class="page-4-speaker-desig">CEO, IIITD Innovationn and Incubation Center</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-10">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Prof. Samir K. Brahmachari</h3>
-				<div class="page-4-speaker-desig">Founder Director, CSIR - Inst. of Genomics & Integrative Biology</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-11">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Mr. Dinesh Tewari</h3>
-				<div class="page-4-speaker-desig">COO and Co-Founder, Circle of Life</div>
-			</div>
-			<div class="page-4-speaker" id="page-4-speaker-12">
-				<div class="page-4-speaker-img"></div>
-				<h3 class='page-4-speaker-name'>Dr. Ashok Mittal</h3>
-				<div class="page-4-speaker-desig">Director, IIITD Innovation and Incubation Center</div>
-			</div>
+    <div id="follow">
+        <a href="https://chat.whatsapp.com/CPpBvQm5wYQEY072OiXWR1" target="_blank">
+            <img src="{% static 'esummit/img/whatsapp.png'%}"> Join WhatsApp Group
+        </a>
+    </div>
 
-		</div>
-		<div class="page" id='page-5'>
-			<h2 id="page-5-head">Register now</h2>
-			<div id="page-5-soon">
-				You need to register for all the events you wish to attend.<br>Click on the link below to register.
-				<a href="https://www.townscript.com/ow/ecell-iiitd-202203" target="_blank"><div class="btn">Register</div></a>
-			</div>
-		</div>		
-		<footer class="page" id='page-6'>
-			<a href="https://www.facebook.com/ECell.IIITD/" target='_blank'><img class="page-6-social" src="{% static 'esummit/img/fb.png'%}"></a>
-			<a href="https://www.instagram.com/iiitdecell/" target='_blank'><img class="page-6-social" src="{% static 'esummit/img/ig.png'%}"></a>
-			<a href="https://twitter.com/iiitdecell" target='_blank'><img class="page-6-social" src="{% static 'esummit/img/twitter.png'%}"></a>
-			<div id="page-6-credits">Designed & Developed by <a href="http://rohan.c1.biz" target="_blank">Web Team</a><br><a href="http://ecell.iiitd.edu.in/" target='_blank'>E-Cell IIIT Delhi</a></div>
-		</footer>
-		<div class="page" id='page-3'>
-			<h2 id="page-3-head">A collaborative effort by</h2>
-			<a target="_blank" href="https://www.iiitd.ac.in/"><img class="page-3-logo" src="{% static 'esummit/img/iiitd.png'%}"></a>
-			<a target="_blank" href="http://ecell.iiitd.edu.in/"><img class="page-3-logo" src="{% static 'esummit/img/ecell.png'%}"></a>
-			<a target="_blank" href="https://www.iiitdic.in/"><img class="page-3-logo" src="{% static 'esummit/img/i3c.png'%}"></a>
-			<a target="_blank" href="https://iic.iiitd.ac.in/"><img class="page-3-logo" src="{% static 'esummit/img/iic.png'%}"></a>
-		</div>
+    <div id="load-cont">
+        <div id="load"></div>
+    </div>
 
-	</body>
+    <div class="dis" id='event-dis'>
+        <img id="event-close" src="{% static 'esummit/img/close.png'%}">
+        <div id="event">
+            <div id="event-head"></div>
+            <div id="event-desc">
+            </div>
+        </div>
+    </div>
+
+    <div class="page" id='page-1'>
+        <div class="dis"></div>
+        <header>
+            <img id="header-logo" src="{% static 'esummit/img/esummit.png'%}">
+            <nav>
+                <div class="menu-item" id='menu-item-1'>Home</div>
+                <div class="menu-item" id='menu-item-2'>About</div>
+                <div class="menu-item" id='menu-item-4'>Speakers</div>
+                <div class="menu-item" id='menu-item-5'>Register</div>
+                <div class="menu-item" id='menu-item-6'>Contact</div>
+            </nav>
+        </header>
+        <h1><span>Augmenting</span><br>The Horizon</h1>
+        <h3 class="sub-head"> <span>E-SUMMIT 20'</span><br>20<sup>th</sup> - 22<sup>nd</sup> March<br>IIIT Delhi</h3>
+        <canvas id="waves"></canvas>
+    </div>
+    <div class="page" id="page-2">
+        <h2 id="page-2-head">What's all the hype about?</h2>
+        <div id="page-2-desc">
+            <span>Immerse yourself in two days of entrepreneurial extravaganza!</span> With an unprecedented amount of creativity, countless inspiring ideas, a confluence of entrepreneurial fanatics and a gamut of activities, the very first edition of
+            E-Summit’2020 is here to celebrate and empower entrepreneurship amongst everyone, with the aim to bring together startup enthusiasts, new-age entrepreneurs, young ideators and venture capitalists on a single platform. With two days of jam-packed
+            events and frenzy amongst all, be ready to encounter a plethora of opportunities coming your way!
+        </div>
+        <div id="page-2-event-cont">
+            <h3 id="page-2-events-head">Events</h3>
+            <div class="page-2-event" id='page-2-event-1'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>Productathon</h3>
+                    Productathon is a 24 hour hackathon where enthusiasts across various domains collaborate to find solution to a provided problem statement.
+                </div>
+            </div>
+            <div class="page-2-event" id='page-2-event-2'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>The Godfather</h3>
+                    People participate for the thrill of taking over the underworld and emerge as the godfather and putting their grey cells to work to devise a winning strategy.
+                </div>
+            </div>
+            <div class="page-2-event" id='page-2-event-3'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>Wolf of the Wall Street</h3>
+                    In life, you don’t get what you deserve. You get what you negotiate. Our event aims to create a business simulation that tests these very negotiation skills.
+                </div>
+            </div>
+            <div class="page-2-event" id='page-2-event-4'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>Stock - Pitch</h3>
+                    A single page document for giving a recommendation to people about whether they should buy or sell a particular stock.
+                </div>
+            </div>
+            <div class="page-2-event" id='page-2-event-5'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>Stock Market Auction</h3>
+                    Investment is an art which has become a necessity in the current world as the opportunity cost of money left idle keeps on increasing. This event gives participants a glimpse of the daily life of stock investors.
+                </div>
+            </div>
+            <div class="page-2-event" id='page-2-event-6'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>Pitch Cafe 3.0</h3>
+                    Different teams pitch their ideas in several rounds which are later judged and some of them are rewarded accordingly.
+                </div>
+            </div>
+            <div class="page-2-event" id='page-2-event-7'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>Business Conclave</h3>
+                    More details coming soon. Stay tuned!
+                </div>
+            </div>
+            <div class="page-2-event" id='page-2-event-8'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>IPL Auction</h3>
+                    The event, IPL Auction doesn’t just require the craze for cricket but it is also equally focused on bringing out the Entrepreneur in the participants.
+                </div>
+            </div>
+            <div class="page-2-event" id='page-2-event-9'>
+                <div class="dis"></div>
+                <div class='page-2-event-det'>
+                    <h3>Online Events</h3>
+                    More details coming soon. Stay tuned!
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="page" id='page-4'>
+        <canvas id="stars"></canvas>
+        <div id="page-4-head">Past<br>Speakers</div>
+        <div class="page-4-speaker" id="page-4-speaker-1">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Manish Sisodiya</h3>
+            <div class="page-4-speaker-desig">Deputy Chief Minister, Delhi</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-2">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Mr. Saurabh Jain</h3>
+            <div class="page-4-speaker-desig">Vice President and Head, Paytm</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-3">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Mr. Tushar Vyas</h3>
+            <div class="page-4-speaker-desig">Director and Co-Founder, Nanoclean Global</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-4">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Mr. Sanat Mondal</h3>
+            <div class="page-4-speaker-desig">Senior Investment Professional , Indian Angel Network</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-5">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Mr. Ajay Singh</h3>
+            <div class="page-4-speaker-desig">CIO and Co-Founder, DLT Labs</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-6">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Mr. Shishir Miglani</h3>
+            <div class="page-4-speaker-desig">CEO, Kurativz Technology</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-7">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Mr. Saarthak Bakshi</h3>
+            <div class="page-4-speaker-desig">Director, HeathPod India</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-8">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Dr. Amarjeet Singh</h3>
+            <div class="page-4-speaker-desig">Co-Founder Zenatix Solutions Pvt. Ltd.</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-9">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Mr. Hemant Kumar</h3>
+            <div class="page-4-speaker-desig">CEO, IIITD Innovationn and Incubation Center</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-10">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Prof. Samir K. Brahmachari</h3>
+            <div class="page-4-speaker-desig">Founder Director, CSIR - Inst. of Genomics & Integrative Biology</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-11">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Mr. Dinesh Tewari</h3>
+            <div class="page-4-speaker-desig">COO and Co-Founder, Circle of Life</div>
+        </div>
+        <div class="page-4-speaker" id="page-4-speaker-12">
+            <div class="page-4-speaker-img"></div>
+            <h3 class='page-4-speaker-name'>Dr. Ashok Mittal</h3>
+            <div class="page-4-speaker-desig">Director, IIITD Innovation and Incubation Center</div>
+        </div>
+
+    </div>
+    <div class="page" id='page-5'>
+        <h2 id="page-5-head">Register now</h2>
+        <div id="page-5-soon">
+            You need to register for all the events you wish to attend.<br>Click on the link below to register.
+            <a href="https://www.townscript.com/ow/ecell-iiitd-202203" target="_blank">
+                <div class="btn">Register</div>
+            </a>
+        </div>
+    </div>
+    <footer class="page" id='page-6'>
+        <a href="https://www.facebook.com/ECell.IIITD/" target='_blank'><img class="page-6-social" src="{% static 'esummit/img/fb.png'%}"></a>
+        <a href="https://www.instagram.com/iiitdecell/" target='_blank'><img class="page-6-social" src="{% static 'esummit/img/ig.png'%}"></a>
+        <a href="https://twitter.com/iiitdecell" target='_blank'><img class="page-6-social" src="{% static 'esummit/img/twitter.png'%}"></a>
+        <div id="page-6-credits">Designed & Developed by <a href="http://rohan.c1.biz" target="_blank">Web Team</a><br><a href="http://ecell.iiitd.edu.in/" target='_blank'>E-Cell IIIT Delhi</a></div>
+    </footer>
+    <div class="page" id='page-3'>
+        <h2 id="page-3-head">A collaborative effort by</h2>
+        <a target="_blank" href="https://www.iiitd.ac.in/"><img class="page-3-logo" src="{% static 'esummit/img/iiitd.png'%}"></a>
+        <a target="_blank" href="http://ecell.iiitd.edu.in/"><img class="page-3-logo" src="{% static 'esummit/img/ecell.png'%}"></a>
+        <a target="_blank" href="https://www.iiitdic.in/"><img class="page-3-logo" src="{% static 'esummit/img/i3c.png'%}"></a>
+        <a target="_blank" href="https://iic.iiitd.ac.in/"><img class="page-3-logo" src="{% static 'esummit/img/iic.png'%}"></a>
+    </div>
+
+</body>
+
 </html>
